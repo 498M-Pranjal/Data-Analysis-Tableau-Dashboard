@@ -7,4 +7,5 @@ To further improve usability, the dashboard includes filters for Year and Region
 Advanced interactivity is achieved through filter actions, where selecting a category dynamically updates all other charts and KPI cards. The inclusion of trend lines and average reference lines helps highlight patterns and benchmarks, enabling users to better understand performance trends over time.
 Additionally, the dashboard logo is configured as a clickable element that redirects users to the published version of the dashboard on Tableau Public, improving accessibility and navigation. Overall, this project demonstrates the effective use of data visualization best practices, interactive dashboard design, and analytical storytelling, making it a strong example of how Tableau can be used to deliver impactful business intelligence solutions.
 
+## Dataset Used
 -<a href="https://github.com/498M-Pranjal/Data-Analysis-Tableau-Dashboard/blob/main/Assignment%207.twbx">Dataset</a>
