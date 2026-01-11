@@ -9,3 +9,60 @@ Additionally, the dashboard logo is configured as a clickable element that redir
 
 ## Dataset Used
 -<a href="https://github.com/498M-Pranjal/Data-Analysis-Tableau-Dashboard/blob/main/Assignment%207.twbx">Dataset</a>
+
+## Question (KPIs)
+
+• Dashboard split into two planes (logo + filters on left, visuals + KPIs on right)
+• Custom KPIs: Profit Margin, Return Rate, # Orders
+• Dynamic Metric Parameter to switch between Sales, Profit & Orders
+• Interactive filters for Year & Region with show/hide toggle button
+• Top 5 Products display (always visible regardless of filters)
+• Filter Actions on Category chart to control other visuals & KPIs
+• Trend Lines & Average Lines where applicable
+• Clickable Logo redirect to Tableau Public dashboard 
+
+# Process
+This project presents an interactive Tableau dashboard built using the Sample Superstore dataset.  
+The dashboard is designed with a two-plane layout:
+Left Panel: Company logo, interaction controls, and filters  
+Right Panel: 6 dynamic visualizations and 3 KPI cards  
+
+The dashboard enables users to analyze business performance dynamically through metric selection, filters, and interactive actions.
+Dashboard Layout
+Two-plane structure:
+    Left: Logo, Metric selector, Year & Region filters  
+    Right: Visualizations and KPI cards 
+    
+* Custom KPIs Formula with calculated feild:
+Profit Margin = Total Profit / Total Sales  
+Return Rate = Quantity Returned / Quantity Ordered  
+Orders = Distinct count of Order ID  
+
+Dynamic Metric Selection:
+A parameter Metric allows switching between:
+Sales  
+Profit  
+Orders  
+
+All visualizations, titles, and tooltips update automatically based on the selected metric.
+
+Interactive Filters:
+Filters for Year and Region  
+Show/Hide toggle button for filters to improve dashboard viewing experience.
+
+Top 5 Products View:
+The dashboard consistently displays the Top 5 Products based on the selected metric.
+Implemented using FIXED LOD expressions to ensure results remain unchanged even when filters are applied.
+
+Filter Actions:
+Clicking on the Category chart dynamically filters all other visualizations and KPI cards.
+
+Trend & Average Lines:
+Trend lines and average reference lines are included where required to highlight performance patterns.
+
+Clickable Logo:
+Clicking on the dashboard logo redirects users to the published Tableau Public dashboard.
+
+# Dashboard
+<img width="1920" height="1080" alt="Screenshot (24)" src="https://github.com/user-attachments/assets/5673f973-08ca-480c-af89-b87a78775a36" />
+
