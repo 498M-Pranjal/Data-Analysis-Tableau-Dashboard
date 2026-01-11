@@ -47,6 +47,7 @@ Two-plane structure:
 
 Dynamic Metric Selection:
 A parameter Metric allows switching between:
+
 Sales  
 Profit  
 Orders  
